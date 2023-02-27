@@ -21,9 +21,9 @@ python render_template.py vdtr-frag-open.yml.jinja2 | kubectl delete -f -
 ```
 ```bash
 # start
-python render_template.py vdtr-frag-open.yml.jinja2 | kubectl apply -f -
+python render_template.py vdtr-adaptive-open.yml.jinja2 | kubectl apply -f -
 # stop
-python render_template.py vdtr-frag-open.yml.jinja2 | kubectl delete -f -
+python render_template.py vdtr-adaptive-open.yml.jinja2 | kubectl delete -f -
 ```
 
 ## Evaluation
